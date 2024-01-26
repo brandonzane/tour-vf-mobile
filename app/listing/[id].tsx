@@ -4,7 +4,7 @@ import { useLocalSearchParams } from "expo-router";
 
 const Page = () => {
   const { id } = useLocalSearchParams<{ id: string }>();
-  console.log("Rocket Man");
+  console.log("Rocket ~ file: [id].tsx:7 ~ Page ~ id:", id);
   return (
     <View>
       <Text>Page</Text>
