@@ -1,7 +1,8 @@
 import { View, Text } from "react-native";
 import React from "react";
+import { Tabs } from "expo-router";
 
-const Page = () => {
+const Inbox = () => {
   return (
     <View>
       <Text>Page</Text>
@@ -9,4 +10,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Inbox;
